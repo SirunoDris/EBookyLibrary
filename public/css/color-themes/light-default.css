@@ -1,0 +1,15 @@
+:root {
+	--bg-color: #ffe0c0;
+	
+	--header-bg-color: rgb(255, 113, 25);
+	--header-title-color: rgb(144, 55, 0);
+	--header-wpname-color: rgb(255, 222, 201);
+
+	--nav-bg-color: rgb(211, 81, 0);
+
+	--nav-auth-bg-color: rgb(160, 61, 0);
+	--nav-auth-color: rgb(255, 222, 201);
+
+	--auth-form-bg-color: rgb(255, 145, 77);
+	--auth-form-border-color: rgb(144, 55, 0);
+}

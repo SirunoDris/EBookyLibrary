@@ -1,0 +1,15 @@
+# Allow following symbolic links
+Options +FollowSymLinks
+
+# Enable rewriting
+RewriteEngine On
+
+# Check if request is a file or directory
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d 
+
+## If true, don't modify file [NoCase, Leave .htaccess]
+RewriteRule ^.*$ - [NC,L]
+## Otherwise, rewrite URL to index.php
+RewriteRule ^.*$ index.php [NC,L]
+
